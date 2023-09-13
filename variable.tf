@@ -24,6 +24,10 @@ variable "subscription_id" {
   default     = ""
 }
 
+variable "app_service_plan_id" {
+  default = ""
+}
+
 variable "administrator_login" {
   default = "adminuser"
 }
